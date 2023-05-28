@@ -21,7 +21,7 @@ public class ejercicio_2 {
             System.out.println(firstLetter + cadena.toString() + lastLetter);
             input = scanner.next();
 
-            if (!input.equals(keyWord)){
+            if (!input.equals(keyWord) && attempts <= 3){
                 System.out.println("palabra incorrecta");
                 System.out.println("Te dare una pista");
                 switch (attempts){
