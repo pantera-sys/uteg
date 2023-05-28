@@ -36,8 +36,15 @@ public class ejercicio_2 {
                         break;
                 }
             }
+            if (input.equals(keyWord) && attempts <= 3){
+                GetMessage(attempts);
+            }
+            if (attempts > 3 && !input.equals(keyWord)){
+                System.out.println("Lo siento no conseguiste adivinar la palabra");
+                input = keyWord;
+            }
         }while (!input.equals(keyWord));
-        GetMessage(attempts);
+        
     }
 
     public static void GetMessage(int count){
