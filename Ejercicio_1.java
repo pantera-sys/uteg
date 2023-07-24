@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio_1 {
+public class ejercicio_1 {
     public static void main(String[] args) {
         int age = 0, idCard = 0, countStudents = 0;
         String names = "", lastNames = "", education, enter = "", input = "";

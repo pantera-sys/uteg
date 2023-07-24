@@ -28,8 +28,14 @@ public class Ejercicio_3 {
                 getTeacherData();
                 break;
             case 4:
-                oddDimiss();
+                System.out.println("Ingrese hasta que numero quiere saber los primos e impares");
+                int limit = scanner.nextInt();
+                oddDimiss(limit);
+                break;
+            default:
+                System.out.println("No se encuentra esa opcion");
         }
+        scanner.close();
     }
 
     public static String pairAndOdd(int num1, int num2){
@@ -67,7 +73,7 @@ public class Ejercicio_3 {
             System.out.println("Ingrese los datos del profesor:");
             System.out.print("Cédula: ");
             cedulas[contadorProfesores] = scanner.nextInt();
-            scanner.nextLine(); // Consumimos el salto de línea pendiente
+            scanner.nextLine(); 
 
             System.out.print("Nombres: ");
             nombres[contadorProfesores] = scanner.nextLine();
@@ -85,7 +91,7 @@ public class Ejercicio_3 {
 
             System.out.print("¿Desea agregar otro profesor? (s/n): ");
             String respuesta = scanner.nextLine();
-            if (respuesta.equalsIgnoreCase("n")) {
+            if (respuesta.equalsIgnoreCase("n") || respuesta.equalsIgnoreCase("no")) {
                 continuar = false;
             }
         }
@@ -101,7 +107,7 @@ public class Ejercicio_3 {
             System.out.println("--------------------");
         }
 
-
+        scanner.close();
     }
 
     public static boolean esPrimo(int numero) {
@@ -116,27 +122,18 @@ public class Ejercicio_3 {
         return true;
     }
 
-    public static void oddDimiss (){
-        int[] numeros = new int[50];
-        int contadorPrimos = 0; 
+    public static void oddDimiss (int limit){
+        int[] numeros = new int[limit];
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < limit; i++) {
             numeros[i] = i + 1;
         }
 
-        
-        System.out.println("Números primos menores e impares del 1 al 50:");
+        System.out.println("Números primos menores e impares del 1 al : "+ limit);
         for (int i = 0; i < 50; i++) {
             if (esPrimo(numeros[i]) && numeros[i] % 2 != 0) {
                 System.out.print(numeros[i] + " ");
-                contadorPrimos++;
             }
         }
-
-        
-        if (contadorPrimos == 0) {
-            System.out.println("No se encontraron números primos menores e impares en el rango de 1 a 50.");
-        }
     }
-
 }

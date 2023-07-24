@@ -20,3 +20,13 @@ Para este juego necesita definir una palabra en su código y considerar lo sigui
 6. Adivinar en el segundo intento: 80 créditos.
 7. Adivinar en el tercer intento: 60 créditos.
 8. No adivinó: 0 créditos.
+
+### Ejercicio#3
+
+1. Realizar una función llamada RELACION (A, B) que a partir de dos números cumpla lo siguiente:
+1. 1. Si el primer número es par y el segundo no, debe devolver 1.
+1. 2. Si el primer número es impar y el segundo es par, debe devolver -1.
+1. 3. Si ambos números son pares, debe devolver un 0.
+2. Realizar una función que retorne si aplica descuento un cliente según el monto de la factura: a las ventas mayores a $100 se dará descuento del 20%. En caso de tener descuento retornar el resultado y la leyenda “cliente con descuento”, caso contrario “cliente sin descuento”.
+3. Realizar un procedimiento que solicite datos personales de profesores como: cédula, nombres, apellidos, materia a dictar, horario. El procedimiento debe ser llamado hasta que el usuario lo indique. Almacenar y mostrar en arreglos los datos del profesor.
+4. Realizar un procedimiento que genere y muestre los primos menores e impares de un rango de números del 1 a 50, utilice arreglos.
