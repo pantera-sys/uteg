@@ -30,3 +30,9 @@ Para este juego necesita definir una palabra en su código y considerar lo sigui
 2. Realizar una función que retorne si aplica descuento un cliente según el monto de la factura: a las ventas mayores a $100 se dará descuento del 20%. En caso de tener descuento retornar el resultado y la leyenda “cliente con descuento”, caso contrario “cliente sin descuento”.
 3. Realizar un procedimiento que solicite datos personales de profesores como: cédula, nombres, apellidos, materia a dictar, horario. El procedimiento debe ser llamado hasta que el usuario lo indique. Almacenar y mostrar en arreglos los datos del profesor.
 4. Realizar un procedimiento que genere y muestre los primos menores e impares de un rango de números del 1 a 50, utilice arreglos.
+
+### Ejercicio#4
+
+1. En el registro de estudiantes considerar solicitar: cedula, nombres, apellidos del estudiante, fecha de nacimiento, número de matrícula y carrera.
+2. Para la consulta especifica de estudiantes, debe realizarlo por la identificación (cédula), si no existiera el estudiante, debe presentar mensaje “Estudiante no se encuentra registrado”.
+3. Generar en un archivo de texto los estudiantes.
