@@ -60,7 +60,7 @@ public class ejercicio_3{
             String linea;
             boolean found = false;
 
-            System.out.println("busca + " + data);
+            // System.out.println("busca + " + data);
                 while ((linea = bufferedReader.readLine()) != null) {
                     if (linea.equals(data)) {
                         System.out.println("Estudiante encontrado: " + linea);
@@ -72,7 +72,7 @@ public class ejercicio_3{
 
             if (!found) {
                 fileWrite(data, ruta);
-                System.out.println("escrito");
+                // System.out.println("escrito");
             }
         } catch (IOException e) {
             System.out.println("Ocurrió un error al leer el archivo: " + e.getMessage());
@@ -86,7 +86,7 @@ public class ejercicio_3{
 
             escritor.write(data + "\n");
             escritor.close();
-            System.out.println("Nueva informacion");
+            // System.out.println("Nueva informacion");
         } catch (IOException e) {
             System.out.println("Ocurrió un error al generar el archivo: " + e.getMessage());
         }
@@ -99,7 +99,6 @@ public class ejercicio_3{
         get[1]= "Ingrese la cedula del estudiante a encontrar";
         int idCard = 0;
         Scanner scanner = new Scanner(System.in);
-        idCard = scanner.nextInt();
 
        do {
            System.out.println( get[i]);
