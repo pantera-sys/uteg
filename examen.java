@@ -48,10 +48,10 @@ public class examen {
             curso = cursos[1];
         } else if (total <= 300) {
             curso = cursos[2];
-            
+        }
+        
         for (int i = 1; i <= 4; i++) {
-            
-        } 
+             
             if (total <= 0) {
                 break;
             }
