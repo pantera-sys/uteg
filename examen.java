@@ -43,7 +43,14 @@ public class examen {
         int indiceCurso = 0;
 
         for (int i = 1; i <= 4; i++) {
-            int curso = cursos[indiceCurso];
+            int curso = 0;
+             if (total <= 100) {
+            curso = 30;
+        } else if (total <= 200) {
+            curso = 50;
+        } else if (total <= 300) {
+            curso = 75;
+        } 
             if (total <= 0) {
                 break;
             }
