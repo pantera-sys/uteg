@@ -36,3 +36,23 @@ Para este juego necesita definir una palabra en su código y considerar lo sigui
 1. En el registro de estudiantes considerar solicitar: cedula, nombres, apellidos del estudiante, fecha de nacimiento, número de matrícula y carrera.
 2. Para la consulta especifica de estudiantes, debe realizarlo por la identificación (cédula), si no existiera el estudiante, debe presentar mensaje “Estudiante no se encuentra registrado”.
 3. Generar en un archivo de texto los estudiantes.
+
+### Examen 
+
+La coordinación de la Facultad de Ingeniería de Sistemas tiene que distribuir a los estudiantes nuevos en
+las respectivas materias y paralelos, por lo que se solicita la automatización de esta tarea. Para llevar a
+cabo la sistematización considere lo siguiente:
+A. Las materias que se aperturan para los estudiantes son:
+i. Cálculo Diferencial
+ii. Física I
+iii. Técnicas de la Comunicación Oral y Escrita
+iv. Ética y Responsabilidad Social
+v. Derecho Constitucional
+vi. Herramientas Digitales y Colaborativas
+
+B. El número total de estudiantes nuevos es de 100 estudiantes, y en cada paralelo debe colocar
+máximo 30 estudiantes.
+c. Muestre una salida de datos en archivo de texto con la respectiva materia, paralelo y número de
+estudiantes.
+
+Utilice arreglos
