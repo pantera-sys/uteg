@@ -41,15 +41,16 @@ public class examen {
         String[] materias = {"Calculo Diferencial", "Fisica 1\t\t", "Tecnicas Comunicacion Oral y Esc", "Derecho constitucional", "Herramientas digitales"};
         int[] paralelos = {1, 2, 3, 4};
         int indiceCurso = 0;
-
-        for (int i = 1; i <= 4; i++) {
-            int curso = 0;
+        int curso = 0;
              if (total <= 100) {
             curso = cursos[0];
         } else if (total <= 200) {
             curso = cursos[1];
         } else if (total <= 300) {
             curso = cursos[2];
+            
+        for (int i = 1; i <= 4; i++) {
+            
         } 
             if (total <= 0) {
                 break;
