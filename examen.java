@@ -45,11 +45,11 @@ public class examen {
         for (int i = 1; i <= 4; i++) {
             int curso = 0;
              if (total <= 100) {
-            curso = 30;
+            curso = cursos[0];
         } else if (total <= 200) {
-            curso = 50;
+            curso = cursos[1];
         } else if (total <= 300) {
-            curso = 75;
+            curso = cursos[2];
         } 
             if (total <= 0) {
                 break;
